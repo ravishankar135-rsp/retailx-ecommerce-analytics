@@ -2,3 +2,5 @@ pandas
 numpy
 matplotlib
 pytest
+mysql-connector-python
+python-dotenv
