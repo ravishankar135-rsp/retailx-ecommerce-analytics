@@ -70,6 +70,11 @@ RetailX helps answer:
                     └────────┬─────────┘
                              │
                              ▼
+                    ┌──────────────────┐
+                    │ Visualizations   │
+                    │ Reports & KPIs   │
+                    └──────────────────┘
+
 
 ## 🛠️ Tech Stack
 
@@ -385,7 +390,4 @@ GitHub Actions automatically runs tests whenever changes are pushed.
 Ravishankar Prajapat
 
 Data Science | Python | SQL | Machine Learning
-                    ┌──────────────────┐
-                    │ Visualizations   │
-                    │ Reports & KPIs   │
-                    └──────────────────┘
+                    
