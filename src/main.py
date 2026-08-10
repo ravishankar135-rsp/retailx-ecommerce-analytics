@@ -33,6 +33,7 @@ PIPELINE = [
     ("Business Analytics", "analytics.py"),
     ("Inventory Analytics", "inventory.py"),
     ("Visualization", "visualization.py"),
+    ("MySQL Analytics", "mysql_loader.py"),
 ]
 
 
