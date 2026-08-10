@@ -1,12 +1,17 @@
+import os
+
 import mysql.connector
 import pandas as pd
+from dotenv import load_dotenv
 
+
+load_dotenv()
 
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "ravi",
-    "database": "retailx",
+    "host": os.getenv("MYSQL_HOST", "localhost"),
+    "user": os.getenv("MYSQL_USER", "root"),
+    "password": os.getenv("MYSQL_PASSWORD"),
+    "database": os.getenv("MYSQL_DATABASE", "retailx"),
 }
 
 
@@ -16,9 +21,9 @@ def get_connection():
 
 def load_inventory_risk():
     query = """
-        SELECT *
-        FROM inventory_risk_view
-        ORDER BY risk_score DESC, units_sold DESC
+    SELECT *
+    FROM inventory_risk_view
+    ORDER BY risk_score DESC, units_sold DESC
     """
 
     connection = get_connection()
@@ -30,6 +35,7 @@ def load_inventory_risk():
 
 
 if __name__ == "__main__":
+
     df = load_inventory_risk()
 
     print("\n" + "=" * 70)
