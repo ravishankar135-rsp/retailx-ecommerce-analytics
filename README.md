@@ -362,7 +362,7 @@ Inventory Analytics
    ↓
 Visualization
    ↓
-Reports
+MySQL Analytics
 ```
 
 Run the complete pipeline:
@@ -373,8 +373,8 @@ py src/main.py
 
 Current pipeline result:
 
-```text
-Successful steps : 5/5
+Successful steps : 6/6
+Total execution  : ~11 seconds
 RetailX pipeline completed successfully.
 ```
 
