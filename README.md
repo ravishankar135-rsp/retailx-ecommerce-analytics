@@ -1,5 +1,13 @@
 # RetailX — E-Commerce Sales & Inventory Analytics Platform
 
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![MySQL](https://img.shields.io/badge/MySQL-Analytics-blue)
+![Pytest](https://img.shields.io/badge/Tests-7%20Passed-brightgreen)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 > End-to-end analytics platform for sales performance, profitability, customer analytics, inventory health, warehouse risk, and business intelligence using Python, Pandas, NumPy, SQL, MySQL, Pytest, and GitHub Actions.
 
 ---
