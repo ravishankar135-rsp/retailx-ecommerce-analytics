@@ -1,11 +1,11 @@
 # RetailX — E-Commerce Sales & Inventory Analytics Platform
 
-![Python](https://img.shields.io/badge/Python-3.14-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
-![MySQL](https://img.shields.io/badge/MySQL-Analytics-blue)
-![Pytest](https://img.shields.io/badge/Tests-7%20Passed-brightgreen)
-![GitHub%20Actions](https://img.shields.io/badge/CI-GitHub%20Actions-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Python](https://img.shields.io/badge/Python-3.14-blue)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)](https://pandas.pydata.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-Analytics-blue)](https://www.mysql.com/)
+[![Pytest](https://img.shields.io/badge/Tests-7%20Passed-brightgreen)](https://pytest.org/)
+[![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-success)](https://docs.github.com/en/actions)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/license/mit/)
 
 > End-to-end analytics platform for sales performance, profitability, customer analytics, inventory health, warehouse risk, and business intelligence using Python, Pandas, NumPy, SQL, MySQL, Pytest, and GitHub Actions.
 
